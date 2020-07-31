@@ -1,21 +1,33 @@
-// var x = 10;
-// var y = 2;
-// console.log("Code Differently");
-// console.log(3 + 4);
-// console.log(5 - 3);
-// console.log(3 * 3);
-// console.log(12 / 2);
+// for(var i=1;i<=5; i++){
+//     console.log(i);
+// }
 
-// console.log(x+y);
-// console.log(x-y);
-// console.log(x*y);
-// console.log(x/y);
-// console.log(y+x);
-// console.log(y-x);
-// console.log(y*x);
-// console.log(y/x);
+// for(var i=1;i<=100;i++){
+//     if(i % 3 == 0){
+//         console.log("Fizz")
+//     } else{
+//         console.log("Cool coders")
+//     }
+// }
 
-for(i=5; i <= 15; i+=2){
-    console.log(i);
+// var firstName= "Jeremiah ";
+// var lastName= "Whitehurst";
+
+// var fullName= firstName.concat(lastName);
+
+// console.log(fullName.length)
+
+for(var i=1;i<=30;i++){
+    if (i % 15 == 0) {
+        console.log("FizzBuzz");
+    }
+    else if (i % 3 == 0) {
+        console.log("Fizz");
+    }
+    else if (i % 5 == 0) {
+        console.log("Buzz");
+    }
+    else{
+        console.log(i);
+    }
 }
-
