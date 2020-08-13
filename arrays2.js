@@ -1,30 +1,21 @@
-var colors = ["red", "orange", "yellow", "green", "blue"];
+var array = ["red", 2, "yellow", 7, "green"];
 
-// console.log(colors[0]);
+console.log(array[0]);
 
-// console.log(colors[2]);
+// console.log(array[3]);
 
-// colors[colors.length - 1] = "ultraviolet";
+array.pop();
 
-// console.log(colors);
+// array.push("purple");
 
-var fourthColor = [colors[3]];
+// array.unshift("purple");
 
-colors.push("white");
+// array.shift();
 
-colors.unshift("black");
+console.log(array)
 
-// colors.pop();
-// console.log(colors.length);
+// console.log(array.length);
 
-for (var i = 0; i < colors.length; i++) {
-    // console.log(colors[i]);
-}
-
-for (var i = 0; i < colors.length; i++) {
-    // console.log(i + ", " + colors[i]);
-}
-
-var lastColor = colors[colors.length - 1];
-
-console.log(lastColor)
+// for (var i = 0; i < array.length; i++) {
+//     console.log(array[i]);
+// }
